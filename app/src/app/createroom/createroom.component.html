@@ -1,0 +1,23 @@
+<p>createroom works!</p>
+
+
+<button (click) = "oncreateRoom()">Create room</button>
+
+<button (click)="onjoinRoom()">
+    Join the room
+</button>
+
+
+
+            <video #videoElement  autoplay playsinline ></video>
+
+<form (ngSubmit)="sendMessage()">
+    <div>
+    
+      <input type="text" name="message" [(ngModel)]="message"  />
+      <button type="submit">send</button>
+    </div>
+</form>
+
+
+
